@@ -75,5 +75,5 @@ header .buttons {
     
     #signInBtn:hover {
         background-color:rgba(255, 170, 0, 0.379);
-        border-color: acc;
+        border-color: var(--accent-color);
     }
