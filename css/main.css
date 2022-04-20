@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #2F281E;
+    --secondary-color: #544837;
+    --accent-color:#FF9900;
+}
+
+button {
+    font-weight:700;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    padding: 11px 25px;
+    border-color: var(--accent-color) ;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color:rgba(255, 153, 0, 0.8);
+}
+
+.main__container{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    height: 78px;
+    justify-content: flex-end;
+    margin: 25px 0px;
+    align-items: center;
+}
+
+header .logo{
+    margin-right: auto;
+}
+header a {
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+header a:hover {
+    color: var(--accent-color);
+}
+
+header .buttons {
+    margin: 0px 10px ;
+}
+#signInBtn {
+    background-color: white;
+    color: #173A56;
+    border-color:#BCD0E5;
+    margin: 0 14px;
+}
+    
+    #signInBtn:hover {
+        background-color:rgba(255, 170, 0, 0.379);
+        border-color: acc;
+    }
