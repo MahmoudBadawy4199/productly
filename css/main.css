@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,11 @@ a {
     --accent-color:#FF9900;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
 button {
     font-weight:700;
     letter-spacing: 2px;
@@ -30,10 +36,12 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
 button:hover {
     background-color:rgba(255, 153, 0, 0.8);
 }
 
+/* Main Container For the Whole Page */
 .main__container{
     max-width: 1250px;
     width: 100%;
@@ -42,6 +50,8 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
+
+/* Header */
 header {
     display: flex;
     height: 78px;
@@ -50,15 +60,18 @@ header {
     align-items: center;
 }
 
+
 header .logo{
     margin-right: auto;
 }
+
 header a {
-    padding: 0 10px;
+    padding: 10px;
     font-weight: 400;
     font-size: 14px;
     transition: all 0.3s ease 0s;
 }
+
 header a:hover {
     color: var(--accent-color);
 }
@@ -72,8 +85,58 @@ header .buttons {
     border-color:#BCD0E5;
     margin: 0 14px;
 }
+#signInBtn:hover {
+    background-color:rgba(255, 170, 0, 0.379);
+    border-color: var(--accent-color);
+}
+
+/* Super Power Section */
+.superpower__container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.superpower__container .flex__item {
+    flex: 1 1 0px;
+    width: 0;
     
-    #signInBtn:hover {
-        background-color:rgba(255, 170, 0, 0.379);
-        border-color: var(--accent-color);
-    }
+}
+.superpower__container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.superpower__container .content h1{
+    font-size: 44px;
+    line-height: 54px;
+}
+.superpower__container .content p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 30px 0px 45px 0px;
+}
+.content .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 10px;
+}
+.content .links button{
+    padding: 14px 41px;
+}
+
+.content .links .watch__video{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content a{
+    text-decoration: underline;
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
