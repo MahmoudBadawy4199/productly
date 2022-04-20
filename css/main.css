@@ -141,3 +141,61 @@ header .buttons {
     line-height: 24px;
     padding: 10px 0px;
 }
+ 
+/* Design Tools Section */
+.designtools__container {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/designtools_bgimg.svg");
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.designtools__container h1{
+    font-size: 36px;
+    line-height: 54px;
+    text-align:center;
+}
+.cards__container{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+.card{
+    margin: 10px 30px;
+    flex:1 0 calc(21% - 45px);
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    height: 50px; 
+    margin-right: auto;
+}
+.card h2 {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    width: fit-content;
+    padding: 30px 0 13px 0;
+}
+.card p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: start;
+    width: 100%;
+}
+.designtools__container button {
+    margin: 35px 0px;
+}
+
+
