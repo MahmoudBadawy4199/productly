@@ -278,3 +278,73 @@ header .buttons {
 .managers__sub__container .sub__content__item p{
     max-width: 370px;
 }
+
+/* Need a Superhero Section */
+.needhero_container {
+    margin: 150px 0px;
+    background-image: url("../assets/needhero_bgimg.svg");
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 150px 0px;
+}
+.needhero_container .content{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.needhero_container .content h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.needhero_container .content p{
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 65%;
+    line-height: 26px;
+    color: #567592;
+    margin: 22px 0px 45px 0px;
+    text-align: center;
+}
+
+.needhero_container .content button{
+    padding: 15px 30px;
+    line-height: 24px;
+}
+
+.needhero_container img {
+    height: 140px;
+}
+#img1 {
+    position: relative; 
+    left: 42px;
+    top: 74px;
+}
+#img2{
+    position: relative; 
+    left: 293px;
+    top: -20px;
+   
+}
+#img3{
+    position: relative; 
+    left: 467px;
+    top: 122px;
+  
+}
+#img4{
+    position: relative; 
+    left: 458px;
+    top: -20px;
+}
+#img5{
+    position: relative; 
+    left: -609px;
+    top: 28px;
+}
