@@ -410,6 +410,64 @@ header .buttons {
 
 .strategy__container > img {
     margin: 0 auto;
-    padding: 45px;
+    padding: 20px 0px 0px;
+}
+
+
+/* Footer */
+footer {
+    margin: 120px 0px 95px 0px;
+}
+footer hr {
+    height: 1px;
+    color: #BCD0E57F;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0 10px;
+}
+footer ul a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: var(--secondary-color);
+}
+
+footer ul a:hover {
+    color: var(--accent-color);
+}
+
+  
+  .footer__logo {
+    margin-top: 5%;
+    padding: 30px;
+    margin-right: auto;
+    
+  }
+  
+  .footer__sub__container {
+    width: 75%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  footer .sign__up__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .sign__up__container input{
+      padding: 10px;
+      border: 1px solid #BCD0E5;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-bottom: 20px;
+  }
+  footer .sign__up__container button{
+    width: fit-content;
+    box-sizing: border-box;
 }
 
